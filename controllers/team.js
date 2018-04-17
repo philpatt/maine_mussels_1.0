@@ -13,11 +13,41 @@ router.get('/futures', function (req, res) {
     res.render('teams/futures');
 });
 
-
 /*
 =========================
-Team Page - Futures
+End Futures
 =========================
 */
 
+
+/*
+=========================
+Team Page - Green
+=========================
+*/
+router.get('/green', function (req, res) {
+    res.render('teams/green');
+});
+
+/*
+=========================
+End Green
+=========================
+*/
+
+
+/*
+=========================
+Team Page - Navy
+=========================
+*/
+router.get('/navy', function (req, res) {
+    res.render('teams/navy');
+});
+
+/*
+=========================
+End Green
+=========================
+*/
 module.exports = router;
