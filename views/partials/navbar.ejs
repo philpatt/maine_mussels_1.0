@@ -1,31 +1,40 @@
-<nav class="navbar navbar-default">
-  <div class="container">
-    <!-- Mobile stuff -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Toggle navigation</span>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Maine Mussels</a>
+      <a class="navbar-brand" href="#">Mussels Lacrosse</a>
     </div>
-
-    <!-- Define the links -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <% if(!currentUser){ %>
-          <li>
-            <a href="/auth/login">Login</a>
-          </li>
-          <li>
-            <a href="/auth/signup">Sign Up</a>
-          </li>
-        <% } else { %>
-          <li>
-            <a href="/auth/logout">Logout</a>
-          </li>
-        <% } %>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="#">Home</a>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Teams
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="/teams/green">Mussels Green</a>
+            </li>
+            <li>
+              <a href="/teams/navy">Mussels Navy</a>
+            </li>
+            <li>
+              <a href="/teams/futures">Mussels Futures</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
       </ul>
     </div>
   </div>

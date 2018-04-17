@@ -3,7 +3,14 @@ var passport = require('../config/passportConfig');
 var db = require('../models');
 var router = express.Router();
 
-router.get('/login', function(req, res){
+
+/* 
+============================
+Admin Site -- hidden url
+============================
+*/
+
+router.get('/admin', function(req, res){
   res.render('auth/login');
 });
 
@@ -19,7 +26,7 @@ router.get('/signup', function(req, res){
 });
 
 router.post('/signup', function(req, res, next){
-  console.log('req.body is', req.body);
+  // console.log('req.body is', req.body);
   db.user.findOrCreate({
     where: { email: req.body.email },
     defaults: {
@@ -53,6 +60,19 @@ router.get('/logout', function(req, res){
   res.redirect('/');
 });
 
+/* 
+============================
+End hidden URLs
+============================
+*/
+
+/* 
+============================
+Facebook Auth -- 
+Stretch goal for User comments
+============================
+*/
+
 /* OAUTH ROUTES */
 //Calls the passport-facebook strategy (located in passport config)
 router.get('/facebook', passport.authenticate('facebook', {
@@ -66,6 +86,12 @@ router.get('/callback/facebook', passport.authenticate('facebook', {
   failureRedirect: '/auth/login',
   failureFlash: 'You tried to login with FB, but FB doesn\'t like you'
 }));
+
+/* 
+============================
+End Facebook Auth
+============================
+*/
 
 module.exports = router;
 
