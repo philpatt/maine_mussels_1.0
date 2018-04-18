@@ -9,6 +9,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   program.associate = function(models) {
     // associations can be defined here
+    models.program.hasMany(models.schedule);
+    models.program.hasMany(models.player);    
   };
   return program;
 };

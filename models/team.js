@@ -7,6 +7,10 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   team.associate = function(models) {
     // associations can be defined here
+    models.team.hasMany(models.player);
+    models.team.hasMany(models.coach);
+    models.team.hasMany(models.schedule);        
+    
   };
   return team;
 };

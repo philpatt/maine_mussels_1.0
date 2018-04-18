@@ -5,6 +5,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   event.associate = function(models) {
     // associations can be defined here
+    models.event.hasMany(models.schedule);    
   };
   return event;
 };
