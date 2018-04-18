@@ -17,7 +17,7 @@ router.get('/admin', function(req, res){
 router.post('/login', passport.authenticate('local', {
   successRedirect: '/profile',
   successFlash: 'Login Successful!',
-  failureRedirect: '/auth/login',
+  failureRedirect: '/auth/admin',
   failureFlash: 'Invalid Credentials'
 }));
 
@@ -46,7 +46,7 @@ router.post('/signup', function(req, res, next){
     else {
       //Bad job, you tried to sign up when you should login
       req.flash('error', 'Email already exists');
-      res.redirect('/auth/login');
+      res.redirect('/auth/admin');
     }
   }).catch(function(err){
     req.flash('error', err.message);
