@@ -39,12 +39,25 @@ main-container styling
 */
 .container {
     background-color: grey;
+    padding: 50px !important;
+}
+
+/*
+=========================
+profile styling
+=========================
+*/
+
+.form {
+    border: 3px solid black;
 }
 /*
 =========================
 section styling
 =========================
 */
+
+
 
 /*
 =========================

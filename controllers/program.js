@@ -25,7 +25,7 @@ End Leagues
 Program Page - Pick Up
 =========================
 */
-router.get('/green', function (req, res) {
+router.get('/pickup', function (req, res) {
     res.render('programs/pickup');
 });
 

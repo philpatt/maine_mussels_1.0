@@ -9,9 +9,6 @@ var router = express.Router();
 Events
 =========================
 */
-router.get('/profile', function (req, res) {
-    res.render('teams/futures');
-});
 
 /*
 =========================

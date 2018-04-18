@@ -36,7 +36,12 @@ app.get('/', function(req, res){
 app.get('/profile', isLoggedIn, function(req, res){
   res.render('auth/profile');
 });
-
+app.get('/about', function (req, res) {
+  res.render('about');
+});
+app.get('/contact', function (req, res) {
+  res.render('contact');
+});
 
 app.use('/auth', require('./controllers/auth'));
 app.use('/team', require('./controllers/team'));

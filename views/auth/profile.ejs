@@ -13,9 +13,23 @@
   ============================
  -->
  <div class="row">
+  <!-- Add Scheduled Event Form-->
+  <!-- need to populate database so you can start select dropdown -->
+  <form class='col-sm-offset-1 col-sm-10 schedule-form form' method="post" action="">
+    <h3>Schedule Activity</h3>
+    <p>Schedule an Event, Program, or Clinic</p>
+    <hr>
+    <div class="form-group">
+      <label>Event</label>
+      <input type="text" name="cost" class="form-control" placeholder="add new clinic">
+    </div>
+    <input type="submit" value="Add to Schedule" class="btn btn-success">
+  </form>
+</div>
+<div class="row">
 <!-- Add Clinic Form -->
-  <form class='col-sm-4 ' method="post" action="#">
-    <h3>Add A Clinic</h3>
+  <form class='col-sm-3 form' method="post" action="#">
+    <h3>Add A Clinic Type</h3>
     <p>A "Clinic" is an individual skill instructional by a coach or outside professional</p>
   
     <hr>
@@ -47,54 +61,53 @@
       <label>Details About Clinic:</label>
         <textarea name="clinic_detail" class="form-control" placeholder="Clinic details..."></textarea>
     </div>
-    <input type="submit" value="Add Clinic" class="btn btn-success">
+    <input type="submit" value="Add Clinic Type" class="btn btn-success">
   </form>
 
 <!-- Add Event Form -->
-  <form class='col-sm-4' method="post" action="">
-    <h3>Add Event</h3>
+  <form class='col-sm-3 form' method="post" action="">
+    <h3>Add Event Type</h3>
     <p>An "Event" is a practice, game, or tournament</p>
     <hr>
     <div class="form-group">
       <label>Event</label>
       <input type="text" name="cost" class="form-control" placeholder="add new clinic">
     </div>
-    <input type="submit" value="Add Clinic" class="btn btn-primary">
+    <input type="submit" value="Add Event Type" class="btn btn-success">
   </form>
 
-<!-- Add Scheduled Event Form-->
-<!-- need to populate database so you can start select dropdown -->
-  <form class='col-sm-4' method="post" action="">
-    <h3>Schedule an Event</h3>
-    <p>Schedule a specific Event</p>
+<!-- Add Program Form -->
+  <form class='col-sm-3 form' method="post" action="">
+    <h3>Add Program Type</h3>
+    <p>Current programs are Summer Travel, Summer League, and Summer Pick-Up   </p>
     <hr>
     <div class="form-group">
       <label>Event</label>
       <input type="text" name="cost" class="form-control" placeholder="add new clinic">
     </div>
-    <input type="submit" value="Add Clinic" class="btn btn-primary">
+    <input type="submit" value="Add Program Type" class="btn btn-success">
   </form>
 
- </div>
- <!-- End Program.js-->
+ </div><!-- End Program.js-->
 
 <!-- 
   ============================
-  Uses Program.js
+  Uses team.js
   ============================
  -->
-
-
-<!-- Add Coach Form -->
-
 <div class="row">
+ 
+<!-- Add Team Form -->
+<!-- Add Player Form -->
+<!-- Add Coach Form -->
+</div>
+<!-- 
+  ============================
+  Uses other.js
+  ============================
+ -->
 <!-- Add Contact Form -->
 <!-- Add Partnership Form -->
-</div>
 
-<!-- Add Player Form -->
-<!-- Add Program Form -->
-<!-- Add Team Form -->
-<!-- Add Venue Form -->
 
 
