@@ -3,6 +3,8 @@ module.exports = (sequelize, DataTypes) => {
   var schedule = sequelize.define('schedule', {
     start: DataTypes.DATE,
     end: DataTypes.DATE,
+    start_time: DataTypes.TIME,
+    end_time: DataTypes.TIME,
     cost: DataTypes.STRING,
     schedule_detail: DataTypes.TEXT,
     clinicId: DataTypes.INTEGER,
