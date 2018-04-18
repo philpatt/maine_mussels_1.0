@@ -21,6 +21,9 @@ nav {
 .navbar {
     border-radius: 0px;
 }
+.nav {
+
+}
 .navbar a {
     color: #0C2340;
         
@@ -32,6 +35,7 @@ nav {
     background-color: #0C2340;
 }
 
+
 /*
 =========================
 main-container styling
@@ -39,8 +43,36 @@ main-container styling
 */
 .container {
     background-color: grey;
-    padding: 50px !important;
 }
+
+/*
+=========================
+form styling
+=========================
+*/
+.form {
+    border: 3px solid black;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+}
+.form-header{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 5px;
+    
+}
+.form-group {
+    display: inline-block;
+    
+    
+}
+.primary-form {
+    height: 600px;
+    width: 100%;
+}
+
+
 
 /*
 =========================
@@ -48,9 +80,10 @@ profile styling
 =========================
 */
 
-.form {
-    border: 3px solid black;
+.logout {
+    border: 2px solid black;
 }
+
 /*
 =========================
 section styling
