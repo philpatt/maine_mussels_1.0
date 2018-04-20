@@ -14,28 +14,31 @@
   Uses Program.js
   ============================
  -->
- <div class="row">
-  <!-- Add Scheduled Event Form-->
-  <!-- need to populate database so you can start select dropdown -->
-  <div class="col-sm-offset-3 col-sm-6">
-    <form class='primary-form form' method="post" action="">
-      <div class="form-header">
-        <h3>Schedule Activity</h3>
-        <p>Schedule an Event, Program, or Clinic</p>
+ <section>
+   <div class="row">
+      <!-- Add Scheduled Event Form-->
+      <!-- need to populate database so you can start select dropdown -->
+      <div class="col-sm-offset-3 col-sm-6">
+        <form class='primary-form form' method="post" action="">
+          <div class="form-header">
+            <h3>Schedule Activity</h3>
+            <p>Schedule an Event, Program, or Clinic</p>
+          </div>
+          <div class="form-group">
+            <label>Event</label>
+            <input type="text" name="cost" class="form-control" placeholder="add new clinic">
+          </div>
+          <input type="submit" value="Add to Schedule" class="btn btn-success">
+        </form>
       </div>
-      <div class="form-group">
-        <label>Event</label>
-        <input type="text" name="cost" class="form-control" placeholder="add new clinic">
-      </div>
-      <input type="submit" value="Add to Schedule" class="btn btn-success">
-    </form>
-  </div>
-</div>
+   </div>
+
+ </section>
 
 <div class="row">
 <!-- Add Clinic Form -->
 <div class="col-sm-4">
-  <form class="form" method="post" action="#">
+  <form class="form" method="post" action="/program/add-clinic">
     <div class="form-header">
       <h3>Add A Clinic Type</h3>
       <p>A "Clinic" is an individual skill instructional by a coach or outside professional</p>
@@ -46,7 +49,7 @@
     </div>
     <div class="form-group">
       <label>Cost of Clinic: $</label>
-      <input type="" name="cost" class="form-control" placeholder="0.00">
+      <input type="text" name="cost" class="form-control" placeholder="0.00">
     </div>
     <div class="form-group">
       <label>Start Time:</label>
@@ -91,14 +94,30 @@
 
 <!-- Add Program Form -->
 <div class="col-sm-4">
-  <form class='form' method="post" action="">
+  <form class='form' method="post" action="/program/add-program">
     <div class="form-header">
       <h3>Add Program Type</h3>
       <p>Current programs are Summer Travel, Summer League, and Summer Pick-Up </p>
     </div>
     <div class="form-group">
-      <label>Event</label>
-      <input type="text" name="cost" class="form-control" placeholder="add new clinic">
+      <label>Program Title</label>
+      <input type="text" name="title" class="form-control" placeholder="Add New Program">
+    </div>
+    <div class="form-group">
+      <label>Cost</label>
+      <input type="text" name="cost" class="form-control" placeholder="0.00">
+    </div>
+    <div class="form-group">
+      <label>Start Date</label>
+      <input type="date" name="start" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>End Date</label>
+      <input type="date" name="end" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>Details About Program:</label>
+      <textarea name="program_detail" class="form-control" placeholder="Program details..."></textarea>
     </div>
     <input type="submit" value="Add Program Type" class="btn btn-success">
   </form>

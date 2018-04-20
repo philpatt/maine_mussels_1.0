@@ -42,7 +42,9 @@ app.get('/about', function (req, res) {
 app.get('/contact', function (req, res) {
   res.render('contact');
 });
-
+app.get('/clinics', function (req, res) {
+  res.render('programs/clinics');
+});
 app.use('/auth', require('./controllers/auth'));
 app.use('/team', require('./controllers/team'));
 app.use('/program', require('./controllers/program'));

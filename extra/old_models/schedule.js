@@ -1,8 +1,8 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   var schedule = sequelize.define('schedule', {
-    start: DataTypes.DATE,
-    end: DataTypes.DATE,
+    start_date: DataTypes.DATE,
+    end_date: DataTypes.DATE,
     start_time: DataTypes.TIME,
     end_time: DataTypes.TIME,
     cost: DataTypes.STRING,
