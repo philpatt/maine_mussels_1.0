@@ -39,15 +39,26 @@ app.get('/profile', isLoggedIn, function(req, res){
 app.get('/about', function (req, res) {
   res.render('about');
 });
+
 app.get('/contact', function (req, res) {
-  res.render('contact');
+  db.contact.findAll()
+  .then(function (contacts) {
+    console.log('###### this is what you want',contacts)
+    res.render('contact', { contacts: contacts});
+  }).catch(function (err) {
+    console.log('my error is', err);
+  });
 });
 app.get('/clinics', function (req, res) {
   res.render('programs/clinics');
 });
 app.use('/auth', require('./controllers/auth'));
-app.use('/team', require('./controllers/team'));
-app.use('/program', require('./controllers/program'));
+app.use('/contact', require('./controllers/contact'));
+
+// app.use('/team', require('./controllers/team'));
+// app.use('/program', require('./controllers/program'));
+// app.use('/contact', require('./controllers/contact'));
+
 
 
 

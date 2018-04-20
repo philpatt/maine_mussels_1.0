@@ -1,5 +1,12 @@
 <section>
     <h2>
-       Contact
+       
+    <% contacts.forEach(function(contact){ %>
+       <h3>
+           <%= contact.contact_type %>
+        </h3>
+       
+    <% }); %>
+
     </h2>
 </section>
