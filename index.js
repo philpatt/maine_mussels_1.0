@@ -55,9 +55,9 @@ app.get('/clinics', function (req, res) {
 app.use('/auth', require('./controllers/auth'));
 app.use('/contact', require('./controllers/contact'));
 
-// app.use('/team', require('./controllers/team'));
-// app.use('/program', require('./controllers/program'));
-// app.use('/contact', require('./controllers/contact'));
+app.use('/team', require('./controllers/team'));
+app.use('/program', require('./controllers/program'));
+app.use('/contact', require('./controllers/contact'));
 
 
 

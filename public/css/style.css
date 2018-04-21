@@ -11,16 +11,17 @@ navbar
 =========================
 */
 nav {
-    background-color: #A2AAAD;
+    /* background-color: #A2AAAD; */
     margin: 0 !important;
 }
 .navbar {
     border-radius: 0px;
     width: 100%;
-    height: 10%;
+    height: 60px;
+    background-color: #0C2340;
 }
 .navbar a {
-    color: #0C2340;
+    color: #fff
 }
 .navbar-toggle {
     background-color: white;
@@ -40,7 +41,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-	height: 10%;
+	height: 35px;
     color: white;
     text-align: center;
 }
@@ -52,32 +53,76 @@ main-container
 */
 .container {
     width: inherit;
-    height: 80%;
+    height: inherit;
     margin: 0;
     padding: 0;
-
 }
-
+.row {
+    width: 100% !important;
+    margin: 0;
+}
 /*
 =========================
-Home 
+landing page -- home page
 =========================
 */
 #home {
-    background-image: url();
+    width: inherit;
+    height: inherit;
+    background: url('/img/actionshots/team_celebration_2.jpg');
+    opacity: 0.9;
 }
- 
-#home::after{
-  background: url(image.jpg);
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+.home-logo {
+    height: 200px;
 }
+
+.home-logo img {
+    width: 100%;
+    height: 100%;    
 }
+
+.home-btn-row {
+    margin-top: 300px;
+}
+.home-btn-cont {
+    padding: 15px;
+    height: 100px;
+}
+.home-btn {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 3px black;
+    background-color: rgb(120,190,32);
+    color: rgb(12,35,64);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: box-shadow 0.2s ease-in-out;
+
+}
+.home-btn:hover {
+    border: 2px solid black;
+    box-shadow: 0 5px 1px rgba(0,0,0,0.3);
+}
+.message-link-row {
+    margin-top: 75px;
+}
+.message-link {
+    height: 100px;
+}
+.message-link h2 {
+    color: rgb(12,35,64);
+}
+.message-link img {
+    width: 100%;
+    height: 100%;    
+}
+#message {
+ height: 90%;
+}
+
 /*
 =========================
 forms
