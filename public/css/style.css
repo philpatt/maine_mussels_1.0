@@ -180,6 +180,7 @@ landing page -- home page
 .message-pic {
     height: 100%;
     padding: 10px;
+    margin: 0 !important;
 }
 .message-pic img {
     border: 10px solid #fff;    
@@ -192,6 +193,7 @@ landing page -- home page
 }
 .message-content li{
     color: rgb(12,35,64);
+    /* color: #fff; */
     font-size: 22px;
     padding: 10px;
     list-style-type: none;
