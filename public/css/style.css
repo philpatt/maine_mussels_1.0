@@ -171,22 +171,29 @@ landing page -- home page
     border-radius: 50%;
 }
 #message {
-    height: auto;
+    height: 100%;
     background-color: #A2AAAD;
+    padding: 10px 10px 25px 10px;
 }
 .message-header h2 {
     color: white;
 }
 .message-pic {
-    border: 1px solid black;
     height: 400px;
+    padding: 10px;
 }
 .message-pic img {
+    border: 10px solid #fff;    
     width: 100%;
     height: 100%;
 }
 .message-content {
-    border: 1px solid black;
+    height: 100%;  
+    padding: 10px;
+}
+.message-content li{
+    font-size: 22px;
+    padding: 10px;
 }
 /*
 =========================
