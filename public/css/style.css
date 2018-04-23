@@ -254,7 +254,7 @@ MEDIA QUERY
 }
 
     .container{
-        border: 5px solid red;
+        /* border: 5px solid red; */
     }
 
 /* --- media query home --- */
