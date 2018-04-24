@@ -282,6 +282,13 @@ Calendar
     padding: 25px;
 
  }
+ .calendar-icon {
+    height: auto;
+ }
+  .calendar-icon img{
+    height: 100%;
+    width: 100%;
+ }
 
 
 /* 
