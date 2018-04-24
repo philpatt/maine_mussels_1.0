@@ -49,15 +49,13 @@ app.get('/contact', function (req, res) {
     console.log('my error is', err);
   });
 });
-app.get('/clinics', function (req, res) {
-  res.render('programs/clinics');
-});
 app.use('/auth', require('./controllers/auth'));
 app.use('/contact', require('./controllers/contact'));
-
 app.use('/team', require('./controllers/team'));
 app.use('/program', require('./controllers/program'));
 app.use('/contact', require('./controllers/contact'));
+app.use('/skills-and-clinics', require('./controllers/skills-and-clinics'));
+
 
 
 
