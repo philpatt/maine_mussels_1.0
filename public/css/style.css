@@ -254,8 +254,22 @@ Contact-Page
     border-radius: 23%;
  }
 
-
-
+/* 
+=======================================================
+Registration Forms
+=======================================================
+ */
+ #form {
+    background-color: rgb(12,35,64);
+ } 
+ .form {  
+    padding: 0 !important;
+    height: auto;
+ }
+ iframe {
+    padding: 0 !important;
+     
+ }
 
 /* 
 =======================================================
@@ -323,7 +337,7 @@ MEDIA QUERY
 forms
 =========================
 */
-.form {
+/* .form {
     border: 3px solid black;
     text-align: center;
     height: 600px;
@@ -342,13 +356,13 @@ forms
 .primary-form {
     height: 600px;
     width: 100%;
-}
+} */
 
 /*
 =========================
 profile
 =========================
 */
-.logout {
+/* .logout {
     border: 2px solid black;
-}
+} */
