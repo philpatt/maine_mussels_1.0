@@ -46,19 +46,21 @@ navbar
 nav {
     margin: 0 !important;
 }
+
 .navbar {
+    border: none;
     border-radius: 0px;
     width: 100%;
     height: auto;
     background: linear-gradient(to bottom, #a2aaad 25%, #fff 100%);
-    border: none;
 }
-
-
+.nav {
+    text-align: center;
+}
 .nav-logo {
     height: 50px;
     width: 50px;
-    padding: 0 !important;
+    padding: 0 5px !important;
     margin-left: 10px !important;
     
 }
@@ -68,12 +70,17 @@ nav {
 }
 .navbar-toggle {
     background-color: #0C2340;
-    
+    margin: 0 !important;
 }
 .icon-bar {
     background-color: white;
-
 }
+.nav li a {
+    padding: 15px 10px;
+    display: inline-block;
+    
+}
+
 /*
 =========================
 footer
@@ -268,6 +275,12 @@ MEDIA QUERY
     .nav li a{
         /* padding: 10px 10px !important; */
     }
+    /* .container-fluid,
+    .navbar-collapse {
+        padding: 10px ;
+    } */
+
+
     .logo-row {
         padding: 10px 0px 290px 0px;
     }
