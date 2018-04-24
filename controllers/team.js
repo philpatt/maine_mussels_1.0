@@ -50,4 +50,18 @@ router.get('/navy', function (req, res) {
 End Green
 =========================
 */
+/*
+=========================
+Team Page - Navy
+=========================
+*/
+router.get('/mini-mussels', function (req, res) {
+    res.render('teams/mini');
+});
+
+/*
+=========================
+End Green
+=========================
+*/
 module.exports = router;
