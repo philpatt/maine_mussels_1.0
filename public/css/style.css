@@ -3,7 +3,7 @@ html, body {
     height: auto;
     margin: 0;
     padding: 0;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(12,35,64);
     letter-spacing: 1px;
 }
@@ -55,7 +55,7 @@ nav {
     background: linear-gradient(to bottom, #a2aaad 25%, #fff 100%);
 }
 .nav {
-    text-align: center;
+    /* text-align: center; */
 }
 .nav-logo {
     height: 50px;
@@ -156,7 +156,6 @@ landing page -- home page
     padding: 15px;
     background-color: rgb(120,190,32);
     font-size: 20px;
-    font-weight: bold;
     text-align: center;
     border: 2px solid black;    
     
@@ -282,15 +281,6 @@ Calendar
     padding: 25px;
 
  }
- .calendar-icon {
-    height: auto;
- }
-  .calendar-icon img{
-    height: 100%;
-    width: 100%;
- }
-
-
 /* 
 =======================================================
 =======================================================
@@ -306,8 +296,12 @@ MEDIA QUERY
     #home{
         background-position: center top ;
     }
-    .nav li a{
-        /* padding: 10px 10px !important; */
+    .dropdown li{
+        /* text-align: center; */
+
+    }
+    .message-content ul {
+        padding: 0;
     }
     /* .container-fluid,
     .navbar-collapse {
