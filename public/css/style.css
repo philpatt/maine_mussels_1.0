@@ -18,8 +18,8 @@ nav {
     border-radius: 0px;
     width: 100%;
     height: auto;
-    background-color: #FFF;
-    /* border: 5px solid #304872; */
+    background: linear-gradient(to bottom, #a2aaad 25%, #fff 100%);
+    border: none;
 }
 
 .navbar a {  
@@ -52,7 +52,7 @@ footer
 =========================
 */
 footer {
-    background: linear-gradient(to bottom, #a2aaad 25%, #ffffff 100%);
+    background: linear-gradient(to top, #a2aaad 25%, #ffff 100%);
     position: static;
     left: 0;
     bottom: 0;
@@ -90,10 +90,13 @@ main-container
 =========================
 */
 .container {
-    width: inherit;
-    height: inherit;
-    margin: 0;
-    padding: 0;
+    width: auto;
+    height: auto;
+    margin: 25px;
+    padding: 0px;
+    border: 5px solid #a2aaad;
+    box-shadow: 5px 5px 20px black;
+    
 }
 .row {
     width: 100% !important;
@@ -105,12 +108,11 @@ landing page -- home page
 =========================
 */
 #home {
-    width: inherit;
-    height: inherit;
+
     background: url('/img/actionshots/team_celebration_2.jpg');
     background-position: center;
     z-index: -99;
-    
+
 }
 .home-logo {
     height: 200px;
@@ -176,6 +178,7 @@ landing page -- home page
 }
 .message-header h2 {
     color: white;
+    padding: 10px;
 }
 .message-pic {
     height: 100%;
@@ -206,8 +209,25 @@ Contact-Page
 
  #contact {
     background-color: #A2AAAD;
-     
+ }
 
+ .social-row {
+    /* border: 1px solid black; */
+ }
+ .social {
+    /* border: 1px solid black; */
+     text-align: center;
+ }
+ .social-title {
+    /* border: 1px solid black; */
+ }
+  .social-icon {
+    /* border: 1px solid black; */
+    height: auto;
+ }
+ .social-icon img {
+    width: 100%;
+    height: 100%;
  }
 /*
 =========================
