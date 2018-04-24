@@ -124,11 +124,11 @@ landing page -- home page
     background: url('/img/actionshots/team_celebration_2.jpg');
     background-position: center;
 
-
-
 }
 .home-logo {
     height: 100%;
+    margin-bottom: 400px;
+    
 }
 
 .home-logo img {
@@ -137,7 +137,6 @@ landing page -- home page
 }
 
 .home-btn-row {
-    margin-top: 300px;
 }
 .home-btn-cont {
     padding: 15px;
