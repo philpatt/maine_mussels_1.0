@@ -106,10 +106,12 @@ footer {
     text-decoration-style: none;
     list-style-type: none;
     display: inline-block;
-    padding: 10px;
+    padding: 05px;
     margin: auto;
 }
-
+.footer-contact li{
+    padding-bottom: 30px;
+}
 .built {
     padding: 10px;    
     text-align: right;
@@ -235,6 +237,8 @@ Contact-Page
  .social-icon img {
     width: 100%;
     height: 100%;
+    border-radius: 25%;
+    
  }
 
 
