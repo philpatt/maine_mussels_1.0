@@ -253,6 +253,23 @@ Contact-Page
     border-radius: 23%;
  }
 
+ /* 
+=======================================================
+About
+=======================================================
+ */
+#about,
+#coaches {
+    padding: 20px;
+}
+.overview-row {
+    padding: 10px;
+}
+.overview-content {
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
 /* 
 =======================================================
 Registration Forms
@@ -308,7 +325,10 @@ MEDIA QUERY
         padding: 10px ;
     } */
 
-
+    #about,
+    #coaches{
+        padding: 0 !important;
+    }
     .logo-row {
         padding: 10px 0px 290px 0px;
     }
