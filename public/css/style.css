@@ -146,6 +146,7 @@ landing page -- home page
 .home-logo {
     border: 5px solid rgb(12,35,64);
     padding: 10px;    
+    background-color: rgba(213, 210, 210, 0.9)
 }
 
 .home-logo img {
