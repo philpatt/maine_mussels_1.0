@@ -260,15 +260,41 @@ About
  */
 #about,
 #coaches {
+    padding: 40px;
+    margin: 20px 75px;
+}
+.about-header-row{
+    padding-bottom: 30px; 
+}
+.coach {
     padding: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px rgb(12,35,64);
+}
+.coach 
+.coach-pic{
+    height: auto;
+    padding: 0;
+    border: 3px solid rgb(12,35,64);
+
+}
+.coach-pic img {
+    height: 100%;
+    width: 100%;
 }
 .overview-row {
-    padding: 10px;
+    padding: 0 10px;
 }
 .overview-content {
     padding: 10px;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 1px;
+}
+.coach-facts{
+    padding: 0 20px;
+}
+.coach-facts p {
+    font-size: 18px;
 }
 /* 
 =======================================================
@@ -310,24 +336,20 @@ MEDIA QUERY
 @media (max-width: 828px){
 
 /* ==== navbar ==== */
+
+
+
     #home{
         background-position: center top ;
-    }
-    .dropdown li{
-        /* text-align: center; */
-
     }
     .message-content ul {
         padding: 0;
     }
-    /* .container-fluid,
-    .navbar-collapse {
-        padding: 10px ;
-    } */
 
     #about,
     #coaches{
-        padding: 0 !important;
+        padding: 0px;
+        margin: 5px;
     }
     .logo-row {
         padding: 10px 0px 290px 0px;
