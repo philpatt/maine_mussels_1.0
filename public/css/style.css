@@ -70,7 +70,7 @@ nav {
 }
 .navbar-toggle {
     background-color: #0C2340;
-    margin: 0 !important;
+    /* margin: 0 !important; */
 }
 .icon-bar {
     background-color: white;
@@ -79,6 +79,10 @@ nav {
     padding: 15px 10px;
     display: inline-block;
     font-size: 16px;
+}
+.dropdown li a {
+    width: 100%;
+    text-align: center;
 }
 
 /*
@@ -303,6 +307,7 @@ Registration Forms
  */
  #form {
     background-color: rgb(12,35,64);
+    margin: 25px 100px;
  } 
  .form {  
     padding: 0 !important;
@@ -377,6 +382,10 @@ MEDIA QUERY
     .contact-icon {
         margin: 15px 70px;
     }
+     #form {
+        background-color: rgb(12,35,64);
+        margin: 0;
+ } 
 }
 
 

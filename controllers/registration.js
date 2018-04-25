@@ -38,8 +38,8 @@ End HS League Reg
 HS Travel Reg
 =========================
 */
-router.get('/all-hs-reg', function (req, res) {
-    res.render('registration/all-high-school-reg');
+router.get('/hs-travel-reg', function (req, res) {
+    res.render('registration/high-school-travel-reg');
 });
 
 /*
@@ -63,11 +63,11 @@ End MS League Reg
 */
 /*
 =========================
-MS League Reg
+MS Travel Reg
 =========================
 */
-router.get('/all-ms-reg', function (req, res) {
-    res.render('registration/all-middle-school-reg');
+router.get('/ms-travel-reg', function (req, res) {
+    res.render('registration/middle-school-travel-reg');
 });
 /*
 =========================
