@@ -136,13 +136,25 @@ landing page -- home page
     height: 500px;
 }
 #home-header {
-    border: 5px solid rgb(12,35,64);       
-    margin: 35px 100px;
+    padding: 0;
+    margin: 50px 100px 100px 100px;
+}
+
+.home {
+    padding: 0;
+}
+.home-logo {
+    border: 5px solid rgb(12,35,64);
+    padding: 10px;    
+}
+
+.home-logo img {
+    width: 100%;
+    height: 100%;    
 }
 #carousel-container {
     background-color: rgba(213, 210, 210, 0.9);
     padding: 25px 100px;    
-    
 }
 #myCarousel {
     /* border: 5px solid rgb(12,35,64);        */
@@ -150,15 +162,7 @@ landing page -- home page
     
 }
 .carousel-inner {
-    height: auto;
-}
-.home-logo {
-    height: 100%;
-}
-
-.home-logo img {
-    width: 100%;
-    height: 100%;    
+    height: 300px;
 }
 
 .home-btn-cont {
