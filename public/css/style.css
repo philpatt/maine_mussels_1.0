@@ -17,7 +17,7 @@ main stylings
     height: auto;
     margin: 25px;
     padding: 0px;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 5px 15px 30px black;
     
 }
 .row {
@@ -130,11 +130,24 @@ footer {
 landing page -- home page
 =========================
 */
+#home{
+    background-image: url('/img/actionshots/team_celebration_2.jpg');
+    background-position: center top ;
+    height: 500px;
+}
 #home-header {
-    /* background: url('/img/actionshots/team_celebration_2.jpg'); */
     border: 5px solid rgb(12,35,64);       
+    margin: 35px 100px;
+}
+#carousel-container {
+    background-color: rgba(213, 210, 210, 0.9);
+    padding: 25px 100px;    
     
-
+}
+#myCarousel {
+    /* border: 5px solid rgb(12,35,64);        */
+    box-shadow: 5px 5px 20px black;
+    
 }
 .carousel-inner {
     height: auto;
@@ -159,8 +172,8 @@ landing page -- home page
     padding: 15px;
     background-color: rgb(120,190,32);
     font-size: 20px;
-    text-align: center;
-    border: 2px solid black;    
+    /* text-align: center; */
+    /* border: 2px solid red;     */
     
 }
 .shadow-effect{
@@ -355,9 +368,7 @@ MEDIA QUERY
 
 
 
-    #home{
-        background-position: center top ;
-    }
+
     .message-content ul {
         padding: 0;
     }
@@ -399,7 +410,13 @@ MEDIA QUERY
 
 
 
-
+@media (min-width: 768px){
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
 
 
 
