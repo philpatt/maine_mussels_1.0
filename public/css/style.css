@@ -17,7 +17,6 @@ main stylings
     height: auto;
     margin: 25px;
     padding: 0px;
-    border: 5px solid rgb(12,35,64);       
     box-shadow: 10px 10px 20px black;
     
 }
@@ -131,18 +130,17 @@ footer {
 landing page -- home page
 =========================
 */
-#home {
+#home-header {
     /* background: url('/img/actionshots/team_celebration_2.jpg'); */
-    /* background-position: center top; */
+    border: 5px solid rgb(12,35,64);       
+    
 
 }
 .carousel-inner {
-    height: 500px;
+    height: auto;
 }
 .home-logo {
     height: 100%;
-    margin-bottom: 400px;
-    
 }
 
 .home-logo img {
@@ -150,8 +148,6 @@ landing page -- home page
     height: 100%;    
 }
 
-.home-btn-row {
-}
 .home-btn-cont {
     padding: 15px;
     height: auto;
@@ -376,8 +372,6 @@ MEDIA QUERY
     }
     .home-logo {
         margin: 10px;
-        border: 5px solid rgb(12,35,64);        
-        background-color: rgba(255, 255, 255, 0.7)
     }
 /* --- media query home --- */
 
