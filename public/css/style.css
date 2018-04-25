@@ -132,9 +132,12 @@ landing page -- home page
 =========================
 */
 #home {
-    background: url('/img/actionshots/team_celebration_2.jpg');
-    background-position: center top;
+    /* background: url('/img/actionshots/team_celebration_2.jpg'); */
+    /* background-position: center top; */
 
+}
+.carousel-inner {
+    height: 500px;
 }
 .home-logo {
     height: 100%;
@@ -151,7 +154,8 @@ landing page -- home page
 }
 .home-btn-cont {
     padding: 15px;
-    height: 100px;
+    height: auto;
+    word-wrap: break-word;
 }
 .home-btn {
     height: 100%;
