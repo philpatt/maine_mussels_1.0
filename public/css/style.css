@@ -322,13 +322,23 @@ Registration Forms
 Calendar
 =======================================================
  */
+
  #calendar {
-
+    
  } 
- .calendar{  
-    padding: 25px;
-
+ .calendar-container{  
+    position: relative;
+    padding-bottom: 75% !important;
+    height: 0;
+    overflow: hidden;
  }
+ .calendar-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 /* 
 =======================================================
 =======================================================
@@ -364,7 +374,6 @@ MEDIA QUERY
         border: 5px solid rgb(12,35,64);        
         background-color: rgba(255, 255, 255, 0.7)
     }
-
 /* --- media query home --- */
 
     .home-btn-row {
