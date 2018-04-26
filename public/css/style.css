@@ -358,6 +358,39 @@ Calendar
     height: 100%;
     width: 100%;
 }
+
+ /* 
+=======================================================
+Mini-Mussels
+=======================================================
+ */
+ #mini-mussels {
+    border: 3px solid red;
+ }
+
+.mini-header-container{
+    border: 1px solid black;
+}
+.new-img-container{
+    /* border: 1px solid black; */
+    height: auto; 
+    padding: 0;
+}
+.new-img-container img{
+    height: 100%;
+    width: 100%;
+}
+.mini-header {
+    /* border: 1px solid black; */
+    text-align: center;
+    /* padding: 10px 0; */
+    margin: 0;   
+}
+.announcement {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;    
+}
 /* 
 =======================================================
 =======================================================
@@ -409,24 +442,21 @@ MEDIA QUERY
 }
 
 
-@media(max-width: 800px){
-    .navbar{
-        padding: initial;
-        height: initial;
-    }
-}
 
-
-@media (min-width: 1121px){
+@media (min-width: 1151px){
     .container-fluid {
         display: flex;
         justify-content: center;
-        flex-wrap: nowrap
+        flex-wrap: nowrap;
     }
 
 }
     
-@media (max-width: 1120px) {
+@media (max-width: 1150px) {
+    .navbar{
+        padding: initial;
+        height: initial;
+    }
   .navbar-header {
       float: none;
   }
