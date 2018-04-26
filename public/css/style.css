@@ -364,12 +364,14 @@ Calendar
 Mini-Mussels
 =======================================================
  */
- #mini-mussels {
+ #mini-mussels-header {
     border: 3px solid red;
  }
 
 .mini-header-container{
     border: 1px solid black;
+    padding: 0;
+    
 }
 .new-img-container{
     /* border: 1px solid black; */
@@ -383,7 +385,7 @@ Mini-Mussels
 .mini-header {
     /* border: 1px solid black; */
     text-align: center;
-    /* padding: 10px 0; */
+    padding: 0;
     margin: 0;   
 }
 .announcement {
