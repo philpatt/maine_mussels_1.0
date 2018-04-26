@@ -365,12 +365,22 @@ Mini-Mussels
 =======================================================
  */
  #mini-mussels-header {
-    border: 3px solid red;
+    margin: 25px 200px ;
+    padding: 10px;
+    box-shadow: 5px 15px 30px black;
+    border: 5px solid rgb(12,35,64);
+ }
+ #mini-mussels-header,
+ #announcement,
+ #location {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
  }
 
 .mini-header-container{
-    border: 1px solid black;
-    padding: 0;
+    /* border: 1px solid black; */
+    padding: 10px;
     
 }
 .new-img-container{
@@ -388,10 +398,50 @@ Mini-Mussels
     padding: 0;
     margin: 0;   
 }
+#announcement,
+#location {
+    box-shadow: none;
+    padding: 5px;
+    text-align: center;
+}
 .announcement {
     border: 1px solid black;
+}
+#mini-mussels-details{
+    padding: 0;
+    text-align: center;
+}
+.mini-overview-row {
+    border: 1px solid black;
+    padding: 10px;    
+}
+.mini-overview-container{
+    border: 1px solid black;    
     padding: 10px;
-    text-align: center;    
+    
+}
+.detail-container{
+    border: 1px solid black;
+    padding: 20px; 
+}
+.detail {
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+.detail-title {
+    border: 1px solid black;
+    padding: 0;
+       
+}
+.detail-description {
+    border: 1px solid black; 
+    padding: 0;
+       
+}
+.small-detail {
+    border: 1px solid black;
+    padding: 0;
 }
 /* 
 =======================================================
@@ -444,6 +494,13 @@ MEDIA QUERY
 }
 
 
+@media (max-width: 900px){
+    #mini-mussels-header {
+        margin: 20px;
+
+    }
+
+}
 
 @media (min-width: 1151px){
     .container-fluid {
