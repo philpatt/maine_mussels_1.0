@@ -403,10 +403,16 @@ Mini-Mussels
     box-shadow: none;
     padding: 5px;
     text-align: center;
+    margin: 0;
 }
 .announcement {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
+.location-session-container {
+    /* border: 1px solid black; */
+    padding: 0px;
+}
+
 #mini-mussels-details{
     padding: 0;
     text-align: center;
@@ -496,10 +502,12 @@ MEDIA QUERY
 
 @media (max-width: 900px){
     #mini-mussels-header {
-        margin: 20px;
+        margin: 10px;
 
     }
-
+    .directions {
+        padding: 10px;
+    }
 }
 
 @media (min-width: 1151px){
