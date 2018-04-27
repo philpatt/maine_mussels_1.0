@@ -408,10 +408,12 @@ Mini-Mussels
 .announcement {
     /* border: 1px solid black; */
 }
-.location-session-container {
+.location-session-container,
+.location-session {
     /* border: 1px solid black; */
     padding: 0px;
 }
+.location
 
 #mini-mussels-details{
     padding: 0;
@@ -506,7 +508,7 @@ MEDIA QUERY
 
     }
     .directions {
-        padding: 10px;
+    padding: 10px;
     }
 }
 
