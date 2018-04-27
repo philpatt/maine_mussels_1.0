@@ -381,7 +381,9 @@ Mini-Mussels
 .mini-header-container{
     /* border: 1px solid black; */
     padding: 10px;
-    
+}
+.mini-header h1 {
+    font-size: 48px;
 }
 .new-img-container{
     /* border: 1px solid black; */
@@ -411,45 +413,32 @@ Mini-Mussels
 .location-session-container,
 .location-session {
     /* border: 1px solid black; */
-    padding: 0px;
+    padding: 0px ;
 }
-.location
 
 #mini-mussels-details{
     padding: 0;
     text-align: center;
 }
-.mini-overview-row {
-    border: 1px solid black;
-    padding: 10px;    
+.mini-details-container {
+    padding: 25px;
 }
-.mini-overview-container{
-    border: 1px solid black;    
+.mini-details {
     padding: 10px;
+    margin: 10px;
+    border: 3px solid black;
+    box-shadow: 5px 15px 30px black;
     
 }
-.detail-container{
-    border: 1px solid black;
-    padding: 20px; 
-}
-.detail {
-    border: 1px solid black;
-    padding: 20px;
+.mini-detail {
+    /* padding: 10px; */
+    /* border: 1px solid black; */
     
 }
-.detail-title {
+.mini-detail-title {
+    padding: 0;
     border: 1px solid black;
-    padding: 0;
-       
-}
-.detail-description {
-    border: 1px solid black; 
-    padding: 0;
-       
-}
-.small-detail {
-    border: 1px solid black;
-    padding: 0;
+    
 }
 /* 
 =======================================================
