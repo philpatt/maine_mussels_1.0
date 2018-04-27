@@ -137,7 +137,8 @@ landing page -- home page
 }
 #home-header {
     padding: 0;
-    margin: 50px 100px 100px 100px;
+     margin: 50px 100px 50px 100px;
+
 }
 
 .home {
@@ -155,7 +156,8 @@ landing page -- home page
 }
 #carousel-container {
     background-color: rgba(213, 210, 210, 0.9);
-    padding: 25px 100px;    
+    padding: 25px 50px;
+    margin: 0px 10px 35px 10px;
 }
 #myCarousel {
     /* border: 5px solid rgb(12,35,64);        */
