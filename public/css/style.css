@@ -435,6 +435,9 @@ Mini-Mussels
     
     
 }
+.col-md-2{
+    padding: 0;
+}
 .mini-detail {
     /* padding: 10px; */
     /* border: 1px solid black; */
