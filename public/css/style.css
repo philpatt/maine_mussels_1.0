@@ -408,6 +408,7 @@ Mini-Mussels
     padding: 5px;
     text-align: center;
     margin: 0;
+    
 }
 .announcement {
     /* border: 1px solid black; */
@@ -423,13 +424,15 @@ Mini-Mussels
     text-align: center;
 }
 .mini-details-container {
+    text-align: center;
     padding: 25px;
+    
 }
 .mini-details {
     padding: 10px;
     margin: 10px;
-    border: 3px solid black;
     box-shadow: 5px 15px 30px black;
+    
     
 }
 .mini-detail {
@@ -441,6 +444,13 @@ Mini-Mussels
     padding: 0;
     border: 1px solid black;
     
+}
+.curriculum-row {
+    text-align: center;
+    padding: 20px;
+}
+.curriculum-items {
+    padding: 10px;
 }
 /* 
 =======================================================
