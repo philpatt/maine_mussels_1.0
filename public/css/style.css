@@ -371,13 +371,25 @@ Calendar
 Mini-Mussels
 =======================================================
  */
+ .mini-page {
+    /* background: #fff; */
+    padding: 50px;
+    width: 100%;
+    height: auto;
+ }
  #mini-mussels-header {
     margin: 25px 200px ;
     padding: 10px;
     box-shadow: 5px 15px 30px black;
+ }
+ #mini-mussels-header,
+ #announcement,
+ .mini-details,
+ .location-session-container{
+    /* padding: 10px; */
+    background: #fff;
     border: 5px solid rgb(12,35,64);
-    background-color: #A2AAAD;
-    
+    background-color: rgba(255, 255, 255, 0.9);
  }
  #mini-mussels-header,
  #announcement,
@@ -386,20 +398,35 @@ Mini-Mussels
     justify-content: center;
     flex-wrap: nowrap;
  }
-
+.location-session {
+    text-align: center;
+}
 .mini-header-container{
-    /* border: 1px solid black; */
     padding: 10px;
+}
+.mini-details-container{
+    padding: 10px;
+    text-align: center;
+}
+.mini-details, {
+    padding: 0px;
+}
+.mini-detail {
+    /* padding: 10px; */
+}
+.mini-detail-title{
+    border: 2px solid rgb(12,35,64);
+    padding: 10px;
+    word-break: normal;
+
 }
 .mini-header h1 {
     font-size: 48px;
 }
 .curriculum-container{
-    text-align: center;
     padding: 10px;
 }
 .new-img-container{
-    /* border: 1px solid black; */
     height: auto; 
     padding: 0;
 }
@@ -407,64 +434,25 @@ Mini-Mussels
     height: 100%;
     width: 100%;
 }
+
 .mini-header {
     /* border: 1px solid black; */
-    text-align: center;
     padding: 0;
     margin: 0;   
 }
-#announcement,
-#location {
-    box-shadow: none;
-    padding: 5px;
-    text-align: center;
-    margin: 0;
+.location-session-container {
+    padding: 20px 0;
+}
+.signup-btn-container{
+    padding: 0px;
+}
+.signup-btn{
+    padding: 0px;
     
-}
-.announcement {
-    /* border: 1px solid black; */
-}
-.location-session-container,
-.location-session {
-    /* border: 1px solid black; */
-    padding: 0px ;
 }
 
-#mini-mussels-details{
-    padding: 0;
-    text-align: center;
-}
-.mini-details-container {
-    text-align: center;
-    padding: 25px;
-    
-}
-.mini-details {
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 5px 15px 30px black;
-    
-    
-}
-.col-md-2{
-    padding: 0;
-}
-.mini-detail {
-    /* padding: 10px; */
-    /* border: 1px solid black; */
-    
-}
-/* .mini-detail-title {
-    padding: 0;
-    border: 1px solid black;
-    
-}
-.curriculum-row {
-    text-align: center;
-}
-.curriculum-items {
-    padding: 10px;
-} */
+
+
 /* 
 =======================================================
 =======================================================
@@ -477,6 +465,9 @@ MEDIA QUERY
 @media (max-width: 828px){
 
 /* ==== navbar ==== */
+    .mini-page {
+        padding: 0px;
+    }
     .message-content ul {
         padding: 0;
     }
@@ -491,6 +482,9 @@ MEDIA QUERY
     }
     .home-logo {
         margin: 10px;
+    }
+    h2{
+        font-size: 25px;
     }
 /* --- media query home --- */
 
@@ -537,6 +531,21 @@ MEDIA QUERY
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+        .mini-page {
+        padding: 25px 75px;
+        width: 100%;
+        height: auto;
+        background-image: url('/img/actionshots/team_celebration.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .signup-btn{
+    padding: 0px;
+    margin-top: 100px;
+    
     }
 }
 @media (min-width: 1151px){
