@@ -2,11 +2,12 @@ html, body {
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 0;
+
     font-family: 'Montserrat', sans-serif;
     color: rgb(12,35,64);
     letter-spacing: 1px;
-background: #a2aaad;
+    /* background: linear-gradient(to bottom, #fff, #a2aaad, #a2aaad 500px, #fff 900px); */
+    background: linear-gradient(to bottom, #fff,#a2aaad 500px, #FFF 900px);
 
 }
 /*
@@ -376,16 +377,17 @@ Mini-Mussels
     padding: 50px;
     width: 100%;
     height: auto;
+    text-align: center;
  }
  #mini-mussels-header {
-    margin: 25px 200px ;
+    margin: 25px 100px ;
     padding: 10px;
     box-shadow: 5px 15px 30px black;
  }
  #mini-mussels-header,
- #announcement,
+ .announcement,
  .mini-details,
- .location-session-container{
+ .location-session{
     /* padding: 10px; */
     background: #fff;
     border: 5px solid rgb(12,35,64);
@@ -393,13 +395,15 @@ Mini-Mussels
  }
  #mini-mussels-header,
  #announcement,
- #location {
+ .location-session-container {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
  }
 .location-session {
-    text-align: center;
+    /* text-align: center; */
+    padding: 10px;
+    margin: 10px;
 }
 .mini-header-container{
     padding: 10px;
@@ -413,12 +417,13 @@ Mini-Mussels
 }
 .mini-detail {
     /* padding: 10px; */
+    margin: 0;
+    
 }
 .mini-detail-title{
     border: 2px solid rgb(12,35,64);
     padding: 10px;
-    word-break: normal;
-
+    background: #c6ccce;
 }
 .mini-header h1 {
     font-size: 48px;
@@ -436,7 +441,7 @@ Mini-Mussels
 }
 
 .mini-header {
-    /* border: 1px solid black; */
+    text-align: center;
     padding: 0;
     margin: 0;   
 }
@@ -523,7 +528,7 @@ MEDIA QUERY
 @media (min-width: 768px){
     /* parallax for large skins */
     .home-parrallax {
-        padding: 50px;
+        padding: 50px 100px;
         width: 100%;
         height: auto;
         background-image: url('/img/actionshots/team_celebration_2.jpg');
@@ -543,8 +548,8 @@ MEDIA QUERY
         background-size: cover;
     }
     .signup-btn{
-    padding: 0px;
-    margin-top: 100px;
+        padding: 0px;
+        margin-top: 100px;
     
     }
 }
