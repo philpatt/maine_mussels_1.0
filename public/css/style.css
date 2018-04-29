@@ -407,7 +407,6 @@ Mini-Mussels
     flex-wrap: nowrap;
  }
 .location-session {
-    /* text-align: center; */
     padding: 10px;
     margin: 10px;
 }
@@ -462,7 +461,16 @@ Mini-Mussels
     
 }
 
-
+ /* 
+=======================================================
+League and Travel pages
+=======================================================
+ */
+ #program-overview-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    height: 100%;
+ }
 
 /* 
 =======================================================
@@ -555,7 +563,7 @@ MEDIA QUERY
         background-image: url('/img/actionshots/team_celebration.jpg');
     }
     .travel-page {
-        padding: 25px 75px;
+        padding: 25px 50px;
         background-image: url('/img/actionshots/player_pic_6.jpg');
     }
     .summer-page {
