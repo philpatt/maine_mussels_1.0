@@ -466,10 +466,30 @@ Mini-Mussels
 League and Travel pages
 =======================================================
  */
+ .travel-page {
+     text-align: center;
+ }
  #program-overview-container {
     background-color: rgba(255, 255, 255, 0.9);
     text-align: center;
     height: 100%;
+ }
+ .program-detail-row {
+    padding: 10px;
+ }
+ .program-detail {
+     padding: 0;
+ }
+ .program-detail li{
+     text-align: left
+ }
+.announcement {
+    border: 3px solid red;    
+}
+ .tryout-header h2{
+     /* margin:0; */
+     padding: 15px;
+     border: 3px solid red;
  }
 
 /* 
@@ -566,7 +586,7 @@ MEDIA QUERY
         padding: 25px 50px;
         background-image: url('/img/actionshots/player_pic_6.jpg');
     }
-    .summer-page {
+    .league-page {
         background-image: url('/img/actionshots/player_pic_6.jpg');
         
 
