@@ -418,7 +418,7 @@ Mini-Mussels
     text-align: center;
 }
 .mini-details, {
-    padding: 0px;
+    padding: 10px;
 }
 .mini-detail {
     /* padding: 10px; */
@@ -478,10 +478,13 @@ League and Travel pages
     padding: 10px;
  }
  .program-detail {
-     padding: 0;
+    border: 2px solid rgb(12,35,64);
+    margin: 10px;
+    background: #c6ccce;
+    padding: 10px;
  }
  .program-detail li{
-     text-align: left
+    text-align: left
  }
 .announcement {
     border: 3px solid red;    
@@ -565,7 +568,7 @@ MEDIA QUERY
     .home-page,
     .mini-page,
     .travel-page,
-    .summer-page {
+    .league-page {
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -587,9 +590,9 @@ MEDIA QUERY
         background-image: url('/img/actionshots/player_pic_6.jpg');
     }
     .league-page {
+        padding: 25px 50px;        
         background-image: url('/img/actionshots/player_pic_6.jpg');
-        
-
+        text-align: center;
     }
 
 
