@@ -1,0 +1,744 @@
+html, body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(12,35,64);
+    letter-spacing: 1px;
+}
+/*
+=========================
+main stylings
+=========================
+*/
+.container {
+    width: auto;
+    height: auto;
+    margin: 25px;
+    padding: 0px;
+    box-shadow: 5px 15px 30px black;
+    
+}
+.row {
+    width: 100% !important;
+    margin: 0;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(12,35,64);
+    margin: 1em 0;
+    padding: 0; 
+}
+a {
+    color: rgb(12,35,64);
+}
+
+/*
+=========================
+navbar
+=========================
+*/
+nav {
+    margin: 0 !important;
+}
+
+.navbar {
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, #a2aaad 25%, #fff 100%);
+    padding: 20px;
+    
+}
+
+.nav-logo {
+    height: 50px;
+    width: 50px;
+    padding: 0 5px !important;
+    margin-left: 10px !important;
+    
+}
+.nav-logo img{
+    height: 100%;
+    width: 100%;
+}
+.navbar-toggle {
+    background-color: #0C2340;
+    /* margin: 0 !important; */
+}
+.icon-bar {
+    background-color: white;
+}
+.nav li a {
+    padding: 15px 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+.dropdown li a {
+    width: 100%;
+    text-align: center;
+}
+
+/*
+=========================
+footer
+=========================
+*/
+footer {
+    background: linear-gradient(to top, #a2aaad 25%, #ffff 100%);
+    position: static;
+    left: 0;
+    bottom: 0;
+	height: 100%;
+}
+
+.partnerships-row {
+    height: 100%;
+    position: static;    
+    bottom: 0;          
+    
+}
+.partnerships {
+    text-align: left;    
+}
+
+.partnerships li{
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-decoration-style: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    margin: auto;
+}
+.footer-contact li{
+    padding-bottom: 30px;
+}
+.built {
+    padding: 10px;    
+    text-align: right;
+}
+
+/*
+=========================
+landing page -- home page
+=========================
+*/
+
+
+#home{
+    background-image: url('/img/actionshots/team_celebration_2.jpg');
+    background-position: center top ;
+    height: 500px;
+}
+#home-header {
+    padding: 30px 0 0 0;
+    margin: 0px 100px 50px 100px;
+
+}
+
+.home {
+    padding: 0;
+}
+.home-logo {
+    border: 5px solid rgb(12,35,64);
+    padding: 10px;    
+    background-color: rgba(213, 210, 210, 0.9)
+}
+
+.home-logo img {
+    width: 100%;
+    height: 100%;    
+}
+#carousel-container {
+    background-color: rgba(213, 210, 210, 0.9);
+    padding: 10px 10px 25px 10px;
+    margin: 0px 30px 35px 30px;
+}
+#myCarousel {
+    box-shadow: 5px 5px 20px black;   
+}
+.carousel-inner {
+    height: 300px;
+}
+
+.home-btn-cont {
+    padding: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+.home-btn {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(120,190,32);
+    /* text-align: center; */
+    /* border: 2px solid red;*/
+    
+}
+.shadow-effect{
+    box-shadow: 5px 5px 20px black;
+    transition: box-shadow 0.2s ease-in-out;
+
+}
+.shadow-effect:hover{
+    box-shadow: 0 5px 1px rgba(0,0,0,0.3);
+}
+
+.message-link-row {
+    margin-top: 10px;
+    position: static;
+    bottom: 0;
+}
+.message-link {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.message-link img {
+    width: 100%;
+    height: 100%;    
+    border-radius: 50%;
+}
+#coachq {
+    height: 100%;
+    padding: 10px 10px 25px 10px;
+    background-color: rgba(213, 210, 210, 0.9);
+    
+}
+.message-header h2 {
+
+    padding: 10px;
+}
+.message-pic {
+    height: 100%;
+    padding: 10px;
+    margin: 0 !important;
+}
+.message-pic img {
+    border: 5px solid rgb(12,35,64);        
+    width: 100%;
+    height: 100%;
+}
+.message-content {
+    height: 100%;  
+    padding: 10px;
+}
+.message-content li{
+    /* color: #fff; */
+    font-size: 22px;
+    padding: 10px;
+    list-style-type: none;
+}
+/* 
+========================
+Contact-Page
+========================
+ */
+
+ #contact {
+    background-color: #A2AAAD;
+    display: inline-block;
+
+ }
+
+ .contact-column {
+    /* border: 1px solid black; */
+    /* margin: 0 35px; */
+    padding: 50px 10px 100px 0;  
+ }
+ .contact {
+    padding: 15px;
+    height: 100%;
+
+ }
+ .contact-title {
+    margin-top: 45px;
+ }
+ .contact-title p {
+    font-size: 18px;
+
+ }
+  .contact-icon {
+    height: auto;
+ }
+ .contact-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 23%;
+ }
+
+ /* 
+=======================================================
+About
+=======================================================
+ */
+#about{
+    padding: 40px;
+    margin: 50px 75px;
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+}
+.content{
+    background: #fff;
+    margin: 50px 0;
+    padding: 30px;
+}
+#about-header{
+    background-color: #fff;
+    box-shadow: none;
+    margin: 0;
+    padding:25px;
+}
+.about-header{
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.coach {
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px rgb(12,35,64);
+}
+.coach 
+.coach-pic{
+    height: auto;
+    padding: 0;
+    border: 3px solid rgb(12,35,64);
+
+}
+.coach-pic img {
+    height: 100%;
+    width: 100%;
+}
+.overview-row {
+    padding: 0 10px;
+}
+.overview-content {
+    padding: 10px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.coach-facts{
+    padding: 0 20px;
+}
+.coach-facts p {
+    font-size: 18px;
+}
+/* 
+=======================================================
+Registration Forms
+=======================================================
+ */
+ #form {
+    background-color: rgb(12,35,64);
+    margin: 25px 100px;
+ } 
+ .form {  
+    padding: 0 !important;
+
+ }
+ iframe {
+    padding: 0 !important;
+     
+ }
+ /* 
+=======================================================
+Calendar
+=======================================================
+ */
+
+ #calendar{
+    padding: 10px;
+ }
+ .calendar-row {
+    margin-top: 30px;
+
+ }
+.calendar-icon-container{
+    margin: 20px 0 50px 0 ;
+    height: auto;
+    box-shadow: 10px 10px 20px black;
+    padding: 0px;
+    border-radius: 50%;
+}
+.calendar-icon-container img{
+    height: 100%;
+    width: 100%;
+}
+
+ /* 
+=======================================================
+Mini-Mussels
+=======================================================
+ */
+ .mini-page {
+    /* background: #fff; */
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+ }
+ #mini-mussels-header {
+    margin: 25px 100px ;
+    padding: 10px;
+    box-shadow: 5px 15px 30px black;
+ }
+ #mini-mussels-header,
+ .announcement,
+ .mini-details,
+ .location-session{
+    /* padding: 10px; */
+    background: #fff;
+    border: 5px solid rgb(12,35,64);
+    background-color: rgba(255, 255, 255, 0.9);
+ }
+ #mini-mussels-header,
+ #announcement,
+ .location-session-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+ }
+.location-session {
+    padding: 10px;
+    margin: 10px;
+}
+.mini-header-container{
+    padding: 10px;
+}
+.mini-details-container{
+    padding: 10px;
+    text-align: center;
+}
+.mini-details, {
+    padding: 10px;
+}
+.mini-detail {
+    /* padding: 10px; */
+    margin: 0;
+    
+}
+.mini-detail-title{
+    border: 2px solid rgb(12,35,64);
+    padding: 10px;
+    background: #c6ccce;
+}
+.mini-header h1 {
+    font-size: 48px;
+}
+.curriculum-container{
+    padding: 10px;
+}
+.new-img-container{
+    height: auto; 
+    padding: 0;
+}
+.new-img-container img{
+    height: 100%;
+    width: 100%;
+}
+
+.mini-header {
+    text-align: center;
+    padding: 0;
+    margin: 0;   
+}
+.location-session-container {
+    padding: 20px 0;
+}
+.signup-btn-container{
+    padding: 0px;
+}
+.signup-btn{
+    padding: 0px;
+    
+}
+
+ /* 
+=======================================================
+League and Travel pages
+=======================================================
+ */
+ .travel-page,
+ .league-page {
+     text-align: center;
+ }
+ #program-overview-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    height: 100%;
+ }
+ .program-detail-row {
+    padding: 10px;
+ }
+ .program-detail {
+    border: 2px solid rgb(12,35,64);
+    margin: 10px;
+    background: #c6ccce;
+    padding: 10px;
+ }
+ .program-detail li{
+    text-align: left
+ }
+.announcement {
+    border: 3px solid red;    
+}
+ .tryout-header h2{
+     /* margin:0; */
+     padding: 15px;
+     border: 3px solid red;
+ }
+ /* 
+=======================================================
+Skills and Clinics Pages
+=======================================================
+ */
+ .clinics-page {
+     text-align: center;
+     height: auto;
+ }
+.clinics-container {
+    box-shadow: none;
+}
+.clinics-header {
+    border: 5px solid rgb(12,35,64);
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 10px;
+}
+.clinic {
+    padding: 10px;
+}
+.clinic-container{
+    border: 5px solid black;
+    /* height: auto; */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+}
+.clinic-title{
+    border: 5px solid black;
+    /* margin:0px; */
+    padding: 10px;
+}
+.fb-video {
+    overflow:hidden;
+    padding-bottom:56%;
+    position:relative;
+    height:auto;
+    margin: 10px;
+
+    
+}
+
+.fb-video iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+
+}
+/* 
+=======================================================
+=======================================================
+MEDIA QUERY
+=======================================================
+=======================================================
+*/
+
+@media (max-width: 828px){
+
+/* ==== navbar ==== */
+    .mini-page {
+        padding: 0px;
+    }
+    .message-content ul {
+        padding: 0;
+    }
+
+    #about,
+    #coaches{
+        padding: 0px;
+        margin: 5px;
+    }
+    .logo-row {
+        padding: 10px 0px 290px 0px;
+    }
+    .home-logo {
+        margin: 10px;
+    }
+    h2{
+        font-size: 25px;
+    }
+/* --- media query home --- */
+
+    .home-btn-row {
+        margin-top: 0;
+    }
+    #contact {
+        text-align: center; 
+    }
+    .contact-column {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .contact-icon {
+        margin: 15px 70px;
+    }
+     #form {
+        background-color: rgb(12,35,64);
+        margin: 0;
+ } 
+}
+
+
+@media (max-width: 900px){
+    #mini-mussels-header {
+        margin: 10px;
+
+    }
+    .directions {
+    padding: 10px;
+    }
+}
+
+@media (min-width: 375px){
+    /* parallax for large skins */
+    .about-page,
+    .home-page,
+    .mini-page,
+    .travel-page,
+    .league-page,
+    .clinics-page {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+    }
+    .home-page{
+        background-image: url('/img/actionshots/team_celebration_2.jpg');
+    }
+    .about-page {
+        background-image: url('/img/actionshots/team_celebration_2.jpg');
+    }
+    .mini-page {
+        background-image: url('/img/actionshots/team_celebration.jpg');
+    }
+    .travel-page {
+        background-image: url('/img/actionshots/player_pic_6.jpg');
+    }
+    .league-page {
+        background-image: url('/img/actionshots/player_pic_6.jpg');
+    }
+    .clinics-page {
+        background-image: url('/img/actionshots/player_pic_2.jpg');
+        
+    }
+
+
+
+    .signup-btn{
+        padding: 0px;
+        margin-top: 100px;
+    
+    }
+}
+@media (min-width: 1151px){
+
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+}
+    
+@media (max-width: 1150px) {
+    .navbar{
+        padding: initial;
+        height: initial;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+
+
+
+
+
+/*
+=========================
+forms
+=========================
+*/
+/* .form {
+    border: 3px solid black;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+}
+.form-header{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 5px;
+    
+}
+.form-group {
+    display: inline-block;
+    
+}
+.primary-form {
+    height: 600px;
+    width: 100%;
+} */
+
+/*
+=========================
+profile
+=========================
+*/
+/* .logout {
+    border: 2px solid black;
+} */

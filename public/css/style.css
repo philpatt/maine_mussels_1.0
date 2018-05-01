@@ -158,12 +158,14 @@ landing page -- home page
     background-color: rgba(213, 210, 210, 0.9);
     padding: 10px 10px 25px 10px;
     margin: 0px 30px 35px 30px;
+    height: 100%;
 }
 #myCarousel {
-    box-shadow: 5px 5px 20px black;   
+    box-shadow: 5px 5px 20px black;
+    height: 100%;
 }
 .carousel-inner {
-    height: 300px;
+    height: 100%;
 }
 
 .home-btn-cont {
