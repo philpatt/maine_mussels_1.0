@@ -167,15 +167,16 @@ landing page -- home page
 }
 
 .home-btn-cont {
-    padding: 15px;
+    padding: 0px;
     height: 100%;
     width: 100%;
 }
 
 .home-btn {
     height: 100%;
+    margin: 0;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     background-color: rgb(120,190,32);
     /* text-align: center; */
     /* border: 2px solid red;*/
@@ -466,7 +467,8 @@ Mini-Mussels
 League and Travel pages
 =======================================================
  */
- .travel-page {
+ .travel-page,
+ .league-page {
      text-align: center;
  }
  #program-overview-container {
@@ -494,7 +496,55 @@ League and Travel pages
      padding: 15px;
      border: 3px solid red;
  }
+ /* 
+=======================================================
+Skills and Clinics Pages
+=======================================================
+ */
+ .clinics-page {
+     text-align: center;
+ }
+.clinics-container {
+    box-shadow: none;
+}
+.clinics-header {
+    border: 5px solid rgb(12,35,64);
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 10px;
+}
+.clinic {
+    padding: 10px;
+}
+.clinic-container{
+    border: 5px solid black;
+    /* height: auto; */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+}
+.clinic-title{
+    border: 5px solid black;
+    /* margin:0px; */
+    padding: 10px;
+}
+.fb-video {
+    overflow:hidden;
+    padding-bottom:56%;
+    position:relative;
+    height:auto;
+    margin: 10px;
 
+    
+}
+
+.fb-video iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+
+}
 /* 
 =======================================================
 =======================================================
@@ -502,7 +552,6 @@ MEDIA QUERY
 =======================================================
 =======================================================
 */
-
 
 @media (max-width: 828px){
 
@@ -568,31 +617,33 @@ MEDIA QUERY
     .home-page,
     .mini-page,
     .travel-page,
-    .league-page {
+    .league-page,
+    .clinics-page {
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 50px 100px;                
+        
     }
     .home-page{
-        padding: 50px 100px;                
         background-image: url('/img/actionshots/team_celebration_2.jpg');
     }
     .about-page {
         background-image: url('/img/actionshots/team_celebration_2.jpg');
     }
     .mini-page {
-        padding: 25px 75px;
         background-image: url('/img/actionshots/team_celebration.jpg');
     }
     .travel-page {
-        padding: 25px 50px;
         background-image: url('/img/actionshots/player_pic_6.jpg');
     }
     .league-page {
-        padding: 25px 50px;        
         background-image: url('/img/actionshots/player_pic_6.jpg');
-        text-align: center;
+    }
+    .clinics-page {
+        background-image: url('/img/actionshots/player_pic_2.jpg');
+        
     }
 
 
