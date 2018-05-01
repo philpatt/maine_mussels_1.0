@@ -295,13 +295,10 @@ About
     padding: 30px;
 }
 #about-header{
-    background-color: #fff;
+    /* background-color: #fff; */
     box-shadow: none;
     margin: 0;
     padding:25px;
-}
-.about-header{
-    background-color: rgba(255, 255, 255, 0.95);
 }
 .coach {
     padding: 20px;
@@ -614,7 +611,6 @@ MEDIA QUERY
 }
 
 @media (min-width: 375px){
-    /* parallax for large skins */
     .about-page,
     .home-page,
     .mini-page,
@@ -624,7 +620,8 @@ MEDIA QUERY
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;        
+        background-size: cover;
+        padding: 50px 100px;        
     }
     .home-page{
         background-image: url('/img/actionshots/team_celebration_2.jpg');
@@ -645,8 +642,6 @@ MEDIA QUERY
         background-image: url('/img/actionshots/player_pic_2.jpg');
         
     }
-
-
 
     .signup-btn{
         padding: 0px;
