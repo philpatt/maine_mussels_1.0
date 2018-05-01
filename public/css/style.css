@@ -112,7 +112,7 @@ footer {
     text-decoration-style: none;
     list-style-type: none;
     display: inline-block;
-    padding: 05px;
+    padding: 0px;
     margin: auto;
 }
 .footer-contact li{
@@ -167,14 +167,13 @@ landing page -- home page
 }
 
 .home-btn-cont {
-    padding: 0px;
+    padding: 25px;
     height: 100%;
     width: 100%;
 }
 
 .home-btn {
     height: 100%;
-    margin: 0;
     width: 100%;
     padding: 10px;
     background-color: rgb(120,190,32);
@@ -503,6 +502,7 @@ Skills and Clinics Pages
  */
  .clinics-page {
      text-align: center;
+     height: auto;
  }
 .clinics-container {
     box-shadow: none;
@@ -611,7 +611,7 @@ MEDIA QUERY
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 375px){
     /* parallax for large skins */
     .about-page,
     .home-page,
@@ -622,9 +622,7 @@ MEDIA QUERY
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
-        padding: 50px 100px;                
-        
+        background-size: cover;        
     }
     .home-page{
         background-image: url('/img/actionshots/team_celebration_2.jpg');
