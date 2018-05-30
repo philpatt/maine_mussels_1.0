@@ -610,7 +610,7 @@ MEDIA QUERY
     }
 }
 
-@media (min-width: 375px){
+@media (min-width: 500px){
     .about-page,
     .home-page,
     .mini-page,
